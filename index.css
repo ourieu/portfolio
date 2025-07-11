@@ -298,3 +298,9 @@ nav a {
     font-size: 30px;
     padding: 30px 90px;
 }
+
+@media (max-width:800px) {
+    .work {
+        grid-template-columns: 1fr 1fr;
+    }
+}
