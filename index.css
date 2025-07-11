@@ -94,7 +94,6 @@ nav a {
 }
 
 .main1 {
-    height: 91vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -137,15 +136,15 @@ nav a {
     background-color: #d8e4f4;
 }
 
-@media (max-width:600px) {
+.main3 img {
+    width: auto;
+    margin-top: auto;
+    bottom: 0;
+}
+
+@media (max-width:750px) {
     .main1 {
         grid-template-columns: 1fr;
-    }
-    .main2 {
-        height: 91vh;
-    }
-    .main3 {
-        height: 91vh;   
     }
 }
 
@@ -158,5 +157,83 @@ nav a {
 
     .main2 h2 {
         font-size: 40px;
+    }
+}
+
+.second {
+    background-color: #d8e4f4;
+}
+
+.bio1 h2 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    padding: 30px 90px;
+}
+
+.second1 {
+    background-color: #d8e4f4;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.second2  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    padding: 80px;
+}
+
+.img1 img{
+    height: 500px;
+    width: auto;
+}
+
+.second3 {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second3 h2 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    padding-bottom: 30px;
+    max-width: 1000px;
+}
+
+.second h3 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    padding-bottom: 30px;
+    max-width: 1000px;
+}
+
+@media (max-width:750px) {
+    .bio1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bio1 h2 {
+        font-size: 20px;
+    }
+    .second1 {
+        grid-template-columns: 1fr;
+    }
+
+    .second3 h2 {
+        font-size: 20px;
+    }
+
+    .second3 h3 {
+        font-size: 15px;
     }
 }
