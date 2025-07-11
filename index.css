@@ -8,6 +8,7 @@ nav {
 }
 
 nav ul {
+    padding-bottom: 10px;
     padding-top: 10px;
     width: 100%;
     list-style: none;
@@ -60,11 +61,15 @@ nav a {
     width: 100%;
 }
 
+.logo {
+    display: none;
+    margin-right: auto; 
+}
+
 .menu {
     display: none;
-    right: 0;
-    position: absolute;
-    top:10px;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 @media (max-width: 800px) {
@@ -74,10 +79,84 @@ nav a {
     .menu {
         display: block;
     }
+    .logo {
+        display: flex;
+    }
 }
 
 @media (max-width: 400px) {
     .sidebar {
         width: 100%;
+    }
+    .logo {
+        display: flex;
+    }
+}
+
+.main1 {
+    height: 91vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main2 h1 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  padding: 80px;
+}
+
+.main2 h2 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 80px;
+  color: #335c92;
+  max-width: 500px;
+}
+
+.main2 h3 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    text-align: center;
+    max-width: 500px;
+}
+
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8e4f4;
+}
+
+@media (max-width:600px) {
+    .main1 {
+        grid-template-columns: 1fr;
+    }
+    .main2 {
+        height: 91vh;
+    }
+    .main3 {
+        height: 91vh;   
+    }
+}
+
+@media (max-width: 400px) {
+    .main2 h3 {
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .main2 h2 {
+        font-size: 40px;
     }
 }
