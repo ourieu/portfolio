@@ -212,6 +212,12 @@ nav a {
     grid-template-columns: 35% 65%;
 }
 
+.second14 {
+    background-color: #d8e4f4;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .second5  {
     display: flex;
     justify-content: center;
@@ -334,6 +340,8 @@ nav a {
 }
 
 .caption2 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
   position: relative;
   z-index: 1;
   color:#000000;
