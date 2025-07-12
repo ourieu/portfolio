@@ -369,3 +369,12 @@ nav a {
         grid-template-columns: 1fr;
     }
 }
+
+.footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8e4f4;
+    gap: 10px;
+}
