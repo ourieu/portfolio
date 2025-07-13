@@ -344,7 +344,7 @@ nav a {
     font-optical-sizing: auto;
   position: relative;
   z-index: 1;
-  color:#000000;
+  color:#1e1e1e;
   text-align: center;
   top: 50%;
   left: 50%;
@@ -354,7 +354,7 @@ nav a {
 
 .caption2 a {
     text-decoration: none;
-    color: #000000;
+    color: #335c92;
 }
 
 .text1 h2{
@@ -367,6 +367,9 @@ nav a {
 @media (max-width:800px) {
     .work {
         grid-template-columns: 1fr;
+    }
+    .text1 h2 {
+        text-align: center;
     }
 }
 
