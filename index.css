@@ -545,3 +545,21 @@ nav a {
         left: 20px;
     }
 }
+
+.hobby1 {
+    padding: 10px;
+}
+
+.hobby1 h3 {
+    padding: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    color: #335c92;
+}
+
+.hobby1 p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    padding: 2px;
+    color: #335c92;
+}
