@@ -182,6 +182,11 @@ nav a {
         font-size: 40px;
         width: auto;
     }
+    .main4 img {
+        width: 200px;
+        height: auto;
+        padding: 10px;
+    }
 }
 
 .second {
