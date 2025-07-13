@@ -381,3 +381,54 @@ nav a {
     background-color: #d8e4f4;
     gap: 10px;
 }
+
+.containerSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.skills1 {
+    margin: 0 12px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.text2 {
+    margin: 0 12px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.text2 p {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    color: #335c92;
+}
+
+.skills1 ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.skills1 li {
+    border-radius: 40px;
+    border: 2px solid #335c92;
+    padding: 10px 15px;
+}
+
+@media (max-width:800px){
+    .containerSkills{
+        grid-template-columns: 1fr 1fr;
+    }
+    .best1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width:650px){
+    .containerSkills{
+        grid-template-columns: 1fr;
+    }
+}
